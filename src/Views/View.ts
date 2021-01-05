@@ -61,6 +61,6 @@ export abstract class View<T extends Model<K>, K> {
 
     this.onRender();
 
-    this.parent.appendChild(templateElement.content);
+    this.parent.append(templateElement.content);
   }
 }
